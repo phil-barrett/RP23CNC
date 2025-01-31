@@ -1,6 +1,8 @@
 # RP23CNC
 RP235x based breakout board for grblHAL.
 
+![RP2350B based RP23CNC](https://github.com/phil-barrett/RP23CNC/blob/main/RP23CNC.png)
+
 ## Features
 - 5 Axis
   * Step, Direction, Enable outputs, 5V compatible
