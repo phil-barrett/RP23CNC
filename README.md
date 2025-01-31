@@ -26,4 +26,5 @@ RP235x based breakout board for grblHAL.
   * 12V Main board input
   * 12V Isolated input (joinable to Main 12V)
   * 5V output
-  
+- MicroSD Card support
+- Ethernet Support via optional WizNet module
