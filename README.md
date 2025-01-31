@@ -21,6 +21,9 @@ RP235x based breakout board for grblHAL.
 - Digital Inputs
   * 3.3V compatible
   * D0, D1, D2
+ - Spindle Support
+   * PWM, 0-10V, 0-5V support
+   * Enable, Direction, PWM,  5V compatible.
 - 2 UARTs
 - Power Section
   * 12V Main board input
