@@ -2,7 +2,7 @@
 RP235x based breakout board for grblHAL.
 
 ## Status
-Received first build of the board today (2/10/2025).  Briefly tested.  It boots and loads grblHAL firmware. Will be testing all features in the next few days.  Beta testers should expect to have their boards mailed within a week.
+Received first build of the board today (2/10/2025).  Briefly tested.  It boots and loads grblHAL firmware. Will be testing all features in the next few days.  Beta testers should expect to have their boards mailed within a week (assuming no show stoppers).
 
 Bad photo (better ones coming when I get some time).
 
