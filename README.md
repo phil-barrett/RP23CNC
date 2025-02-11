@@ -6,8 +6,9 @@ Received first build of the board today (2/10/2025).  Briefly tested.  It boots 
 
 Bad photo (better ones coming when I get some time.
 
+![V0.92 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/T2100316.JPG)
 
-
+## Model Rendering
 ![RP2350B based RP23CNC](https://github.com/phil-barrett/RP23CNC/blob/main/RP23CNC.png)
 
 ## Features
