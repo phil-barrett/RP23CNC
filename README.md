@@ -1,6 +1,13 @@
 # RP23CNC
 RP235x based breakout board for grblHAL.
 
+## Status
+Received first build of the board today (2/10/2025).  Briefly tested.  It boots and loads grblHAL firmware. Will be testing all features in the next few days.  Beta testers should expect to have their boards mailed within a week.
+
+Bad photo (better ones coming when I get some time.
+
+
+
 ![RP2350B based RP23CNC](https://github.com/phil-barrett/RP23CNC/blob/main/RP23CNC.png)
 
 ## Features
