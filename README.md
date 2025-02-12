@@ -10,7 +10,8 @@ Key changes planned or considered.
 * Spacing of screw terminal increased by 0.08mm to allow easier assembly.
 * SD Card adaptor moved to allow more reliable depanelling.
 * Consider moving to a surface mount trimmer potentiometer to decrease cost (BOM and assembly).
-* Consider Making digital inputs 5V tolerant. (RP2350 inputs are 5V tolerant when powered at 3.3V, but not when the chip is unpowered.)
+* Consider making digital inputs 5V tolerant. (RP2350 inputs are 5V tolerant when powered at 3.3V, but not when the chip is unpowered.)
+* Consider better handling of alternate UART 1 configuration.  Currently uses solder jumpers.
 * One GPIO is available. Not sure what to use it for - digital input, digital output, ? Suggestions welcome.
 * RP2354 variant has built in 2MB Flash memory. Want to support this and use the pins for GPIO. May require a fair amount of redesign.
 
