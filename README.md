@@ -54,3 +54,6 @@ Key changes planned or considered.
 
 ## Model Rendering
 ![RP2350B based RP23CNC](https://github.com/phil-barrett/RP23CNC/blob/main/RP23CNC.png)
+
+## Main board features
+![Features](https://github.com/phil-barrett/RP23CNC/blob/main/Documentation/features.png)
