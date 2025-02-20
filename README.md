@@ -1,6 +1,7 @@
 # RP23CNC
 RP235x based breakout board for grblHAL.
 
+## Beta boards have been sent.
 
 ## Features
 - 5 Axis
