@@ -1,6 +1,10 @@
 # RP23CNC
 RP235x based breakout board for grblHAL.
 
+## V0.95 sent out for assembly.
+Buck converter for 5V.  LDO for 1.1V.  Set up to experiment with other crystals than the pricey Abracon part. Added 4th digital input.
+![V0.95](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/PGA2350-v0.95.png)
+
 ## Beta boards have been sent.
 
 ## Features
@@ -10,6 +14,7 @@ RP235x based breakout board for grblHAL.
   * Servo Error Input with LED, 12V compatible
 - Standard Grbl inputs, 12V compatible
   * Cycle Start, Feed Hold, Halt, Safety Door, Probe
+  * LED indicators.
 - Isolated input section
   * 12V compatible
   * Joinable to main 12V section
@@ -20,7 +25,7 @@ RP235x based breakout board for grblHAL.
   * Flood, Mist, Aux 0, Aux 1, Aux 2, Dust Collector, Spindle Enable
 - Digital Inputs
   * 3.3V compatible
-  * D0, D1, D2
+  * D0, D1, D2, D3
  - Spindle Support
    * PWM, 0-10V, 0-5V support
    * Enable, Direction, PWM,  5V compatible.
