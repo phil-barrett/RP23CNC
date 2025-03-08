@@ -1,7 +1,11 @@
 # RP23CNC
 RP235x based breakout board for grblHAL.
 
-## V0.95 sent out for assembly.
+## Mar 7, V0.95 boards back.
+Using LDO to generate 1.1V works. Alternate crystal works. 5V generation works pretty well. Testing shows buck converter runs at about 10 C above ambient while running a long term test with LED loads on step signal output. Heat imaging shows no hot spots. Made decision to move to USB-C connector.  
+![V0.95](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/V0.95-top-assembled.jpg)
+
+## Mar 1, V0.95 sent out for assembly.
 Buck converter for 5V.  LDO for 1.1V.  Set up to experiment with other crystals than the pricey Abracon part. Added 4th digital input.
 ![V0.95](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/PGA2350-v0.95.png)
 
