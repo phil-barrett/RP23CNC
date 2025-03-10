@@ -1,6 +1,18 @@
 # RP23CNC
 RP235x based breakout board for grblHAL.
 
+## Mar 10
+### Long term burn-in on V0.95 boards
+Looks good.  No problems found.  Board temperatures all within expected ranges. Will be doing limit testing on the power subsystems.
+
+### Board test system work
+I will be using a bed of nails test approach with a Pogo Pin Test Board (PPTB) design for testing.  Decided to go with a test program that runs on the DUT (RP23U5XBB) connected via the PPTB to work with a Board Test Controller (BTC) based on a Teensy 4.1. The DUT will self-test 12V I/O, digital I/O, cycle the BOOT/RUN pins, cycle the stepper pins and communicate results with the BTC via UART0.  The BTC will verify voltage levels, test stepper outputs (in conjunction with the DUT FW) and control the Boot/Run pins. A Linux program will load firmware on the RP2350B (test program and a version of grblHAL), tell the BTC to start the test, receive PASS/FAIL notification and optionally print a report. Probably based on a RaspPi. The overall design is still a work in progress and there are still a few loose ends to nail down..
+
+Finished Board Test Controller (BTC) design.  Decided to assemble it myself - sending off for PCBs. Here's a rendering.
+![V0.95](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/test%20driver.png)
+
+Still working on the Pogo Pin Test Board (AKA, bed of nails tester). This is always a bit tricky to do but a fun challenge, none the less.
+
 ## Mar 7, V0.95 boards back.
 Using LDO to generate 1.1V works. Alternate crystal works. 5V buck generation works pretty well. Testing shows buck converter runs at about 10 C above ambient while running a long term test with LED loads on step signal output. Heat imaging shows no hot spots. Made decision to move to USB-C connector.  
 ![V0.95](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/V0.95-top-assembled.jpg)
