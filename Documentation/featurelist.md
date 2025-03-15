@@ -3,7 +3,7 @@
 - 5 Axis
   * Step, Direction, Enable outputs, 5V compatible
   * Limit Input with LED, 12V compatible
-  * Servo Error Input with LED, 12V compatible
+  * Servo Alarm Input with LED, 12V compatible
 - Standard Grbl inputs, 12V compatible
   * Cycle Start, Feed Hold, Halt, Safety Door, Probe
   * LED indicators.
