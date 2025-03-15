@@ -4,6 +4,17 @@ RP235x based breakout board for grblHAL.
 [Features](https://github.com/phil-barrett/RP23CNC/blob/main/Documentation/featurelist.md)
 ![V0.92 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/T2120387_DxO.jpg)
 
+## Mar 15
+### Beta testing
+Added several new beta testers. They will get V0.95. 
+Chasing a power management worry with 5V relays. Not sure it is a problem with the board. Could be ground bounce.
+
+### V0.96 coming together
+Changed the USB connector to a USB-C.  Added more test points for "bed of nails" testing. I am hoping this will be the final build before production.  Planning to send it out mid next week.
+
+### Board test system work 
+Received the Board Test controller PCB and assembled it partially (don't have the I/O expander chips yet, come on Mouser, fix your slow order processing system). Looks good so far.
+
 ## Mar 14
 ### Beta testing feedback
 Several issues have been reported but mostly it is fairly clean.  Good news from a highly technical tester - after one bug fix there are no lost steps and low low jitter even at fairly high step rates. 
