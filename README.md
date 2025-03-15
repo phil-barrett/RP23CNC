@@ -3,7 +3,7 @@ RP235x based breakout board for grblHAL.
 
 ## Mar 14
 ### Beta testing feedback
-Several issues have been reported but mostly it is fairly clean.  Good news from a highly techincal tester - after on bug fix there are no lost steps and low low jitter even at fairly high step rates. 
+Several issues have been reported but mostly it is fairly clean.  Good news from a highly technical tester - after on bug fix there are no lost steps and low low jitter even at fairly high step rates. 
 
 ### Looking to add some more testers.
 I am looking to expand the list of beta testers a bit more. The profile of an ideal tester:
