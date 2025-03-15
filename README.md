@@ -15,6 +15,9 @@ Changed the USB connector to a USB-C.  Added more test points for "bed of nails"
 ### Board test system work 
 Received the Board Test controller PCB and assembled it partially (don't have the I/O expander chips yet, come on Mouser, fix your slow order processing system). Looks good so far.
 
+### Added VRML and STEP models
+Fully populated boards in a single zip file. See 3D Model section. 
+
 ## Mar 14
 ### Beta testing feedback
 Several issues have been reported but mostly it is fairly clean.  Good news from a highly technical tester - after one bug fix there are no lost steps and low low jitter even at fairly high step rates. 
