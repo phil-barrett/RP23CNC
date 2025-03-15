@@ -1,6 +1,22 @@
 # RP23CNC
 RP235x based breakout board for grblHAL.
 
+## Mar 14
+### Beta testing feedback
+Several issues have been reported but mostly it is fairly clean.  Good news from a highly techincal tester - after on bug fix there are no lost steps and low low jitter even at fairly high step rates. 
+
+### Looking to add some more testers.
+I am looking to expand the list of beta testers a bit more. The profile of an ideal tester:
+- Is familiar with grblHAL or Grbl
+- Has a CNC machine that they can drop the board into
+- Has a servo based CNC machine to test with (for testing the servo alarm inputs).
+- Is willing to spend the time to install the board and work with me on any issues that might arise
+
+Not having all those is not a deal killer, by the way. As a bonus, you get to keep the board. No cost to you. Please contact me on the beta testers wanted thread in the Discussions section.
+
+### Board test system work 
+The Board Test system design work is coming along well. More of the issues have been worked through and I am close to sending the base board out for the first build. These are always tricky to design because of the need to have the pogo pins on base align with the actual board. Plus, you have to think differently about how to exercise all the I/O, test power voltages (there are 5 on the board) and generally do it quickly so board testing doesn't consume a lot of time. And, you have to design a test fixture that will hold up to many test cycles.
+
 ## Mar 10
 ### Long term burn-in on V0.95 boards
 Looks good.  No problems found.  Board temperatures all within expected ranges. Will be doing limit testing on the power subsystems.
