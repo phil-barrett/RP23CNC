@@ -4,6 +4,26 @@ RP235x based breakout board for grblHAL.
 [Features](https://github.com/phil-barrett/RP23CNC/blob/main/Documentation/featurelist.md)
 ![V0.92 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/T2120387_DxO.jpg)
 
+## Mar 18
+### More beta boards shipped
+
+### Relay Testing Update
+I was able to torture test with both 5V and 12V relays on both V0.92 and V0.95.  In both cases I tested using the ULN2003 drivers and also driving the coils directly from the 5V and 12V rails.  The latter is not a recommend use of the board power rails because they don't have kick back diodes but I wanted to see what the kick back does to the various power rails.  Short story, it isn't pretty. The ULN2003 does have kickback diodes so it is cleaner. But, in all cases, the board and USB connection did not fail. 
+
+My methodology for each test was to wire the relay coil in so I could manually trigger the relay with one of the wires. This allowed me to do hundreds of relay cycles very quickly.  For the power rail test, I wired one of the coil terminals to the rail ground and then the other wire to the positive rail (+5V or +12V, depending on the test) but not to the other coil terminal. I would touch that wire to the other terminal to trigger the relay.  There is an audible click as it closes. Similarly, when it opens. For the relay driver, I used the spindle enable terminal. I wired one wire from the +V terminal to a coil terminal and the trigger wire to the signal terminal. When the spindle is on, I can touch the other end of the wire to the other coil terminal to trigger the relay.
+
+There were 6 test cases per board version: 
+- USB 5V rail
+- USB 5V driver
+- Board generated 5V (LDO or Buck) rail
+- Board generated 5V (LDO or Buck) driver
+- 12V rail
+- 12V driver
+
+I started a job running and then triggered the relay at least 200 times in each case.
+
+Looking at the power rails on a scope, the rail tests were ugly on 5V and 12V but 3.3V (IO VDD for the RP2350) was surprisingly clean. God bless our stalwart low dropout voltage regulator! The full compliment of by pass capacitors on the RP2350 didn't hurt either. The driver tests had some fluctuations on 5V but, again, the 3.3V rail was clean. In all 6 cases on both versions, grblHAL ran without any problems during the tests. So, at this point, I do not plan any changes to the power section of the board. Glad to put that one to bed.
+
 ## Mar 15
 ### Beta testing
 Added several new beta testers. They will get V0.95. 
