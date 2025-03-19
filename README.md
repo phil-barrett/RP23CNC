@@ -8,11 +8,14 @@ RP235x based breakout board for grblHAL.
 ### More UART thoughts
 Looking at how UART1 shares pins with the digital I/O section. The configuration options are too confusing. I will remove the ones from the bottom of the board and connect TX directly to the RP2350 pin. On top, I will have a 2 way jumper (3 pin) that can be used to select RX or Digital In 3. This prevent the possibility of 2 external devices coming in conflict (one driving the pin high, the other low).
 
+### General usability and cosmetic cleanup
+Did general clean up in preparation for the third build, V0.96. Silkscreen tweaks, word smithing. Moved Spindle LED to a cleaner location.  Changed Aux+Out_2/PWM selection from 0R resistor to 3 pin header to be consistent with other similar selections and more user friendly.
+
 ## Mar 18
 ### UART Day!
 Spent some time testing the UARTS. UART0 got a throrough workout and appears to be fully functional.  I tested both 3.3V and 5V operation. The test set up used a second microcontroller as a receiver/sender.  The two applications (basically the same progam) passed large amounts of data back and forth. The tests were run at 4 different baud rates: 115200, 230400, 921600 and 1228800.  Yes, it passed the test at 1.2 megabaud, even with 5V translation.
 
-Sadly, I found a bug in the board.  I connected to the wrong pin for UART1 TX - Aux_out_0 instead of Aux_out_2. Sigh. I was able to access the correct pin and verified that UART1 worked but did not run the full battery of scenarios as on UART0.  It's an easy fix but full testing will have to wait for the next turn of the board.  The plan is to send it to the contract manufacturer on Thursday.
+Sadly, I found a bug in the board. I connected to the wrong pin for UART1 TX - Aux_out_0 instead of Aux_out_2. Sigh. I was able to access the correct pin and verified that UART1 worked but did not run the full battery of scenarios as on UART0.  It's an easy fix but full testing will have to wait for the next turn of the board. This does mean that Aux_Out 0 and 2 pins at the RP2350 are swapped. The plan is to send it to the contract manufacturer on Thursday.
 
 ## Mar 17
 ### More beta boards shipped
