@@ -4,6 +4,10 @@ RP235x based breakout board for grblHAL.
 [Features](https://github.com/phil-barrett/RP23CNC/blob/main/Documentation/featurelist.md)
 ![V0.92 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/T2120387_DxO.jpg)
 
+## Mar 19
+### More UART thoughts
+Looking at how UART1 shares pins with the digital I/O section. The configuration options are too confusing. I will remove the ones from the bottom of the board and connect TX directly to the RP2350 pin. On top, I will have a 2 way jumper (3 pin) that can be used to select RX or Digital In 3. This prevent the possibility of 2 external devices coming in conflict (one driving the pin high, the other low).
+
 ## Mar 18
 ### UART Day!
 Spent some time testing the UARTS. UART0 got a throrough workout and appears to be fully functional.  I tested both 3.3V and 5V operation. The test set up used a second microcontroller as a receiver/sender.  The two applications (basically the same progam) passed large amounts of data back and forth. The tests were run at 4 different baud rates: 115200, 230400, 921600 and 1228800.  Yes, it passed the test at 1.2 megabaud, even with 5V translation.
