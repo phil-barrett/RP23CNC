@@ -6,7 +6,7 @@ RP235x based breakout board for grblHAL.
 
 ## Mar 18
 ### UART Day!
-Spent some time testing the UARTS. UART0 got a throrough workout and appears to be fully functional.  I tested both 3.3V and 5V operation. The test set up used a second microcontroller as a receiver/sender.  The two applications (basically the same progam) passed large amounts of data back and forth. The tests were run a 4 different baud rates: 115200, 230400, 921600 and 1228800.  Yes, it passed the test at 1.2 megabaud, even with 5V translation.
+Spent some time testing the UARTS. UART0 got a throrough workout and appears to be fully functional.  I tested both 3.3V and 5V operation. The test set up used a second microcontroller as a receiver/sender.  The two applications (basically the same progam) passed large amounts of data back and forth. The tests were run at 4 different baud rates: 115200, 230400, 921600 and 1228800.  Yes, it passed the test at 1.2 megabaud, even with 5V translation.
 
 Sadly, I found a bug in the board.  I connected to the wrong pin for UART1 TX - Aux_out_0 instead of Aux_out_2. Sigh. I was able to access the correct pin and verified that UART1 worked but did not run the full battery of scenarios as on UART0.  It's an easy fix but full testing will have to wait for the next turn of the board.  The plan is to send it to the contract manufacturer on Thursday.
 
