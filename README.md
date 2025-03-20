@@ -6,7 +6,7 @@ RP235x based breakout board for grblHAL.
 
 ## Mar 19
 ### More UART thoughts
-Looking at how UART1 shares pins with the digital I/O section. The configuration options are too confusing. I will remove the ones from the bottom of the board and connect TX directly to the RP2350 pin. On top, I will have a 2 way jumper (3 pin) that can be used to select RX or Digital In 3. This prevent the possibility of 2 external devices coming in conflict (one driving the pin high, the other low).
+Looking at how UART1 shares pins with the digital I/O section. The configuration options are too confusing. I will remove the ones from the bottom of the board and connect TX directly to the RP2350 pin. On top, I will have a 2 way jumper (3 pin) that can be used to select RX or Digital In 3. This prevents the possibility of 2 external devices coming in conflict (one driving the pin high, the other low).
 
 ### General usability and cosmetic cleanup
 Did general clean up in preparation for the third build, V0.96. Silkscreen tweaks, word smithing. Moved Spindle LED to a cleaner location.  Changed Aux+Out_2/PWM selection from 0R resistor to 3 pin header to be consistent with other similar selections and more user friendly.
