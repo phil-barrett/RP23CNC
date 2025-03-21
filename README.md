@@ -2,7 +2,11 @@
 RP235x based breakout board for grblHAL.
 
 [Features](https://github.com/phil-barrett/RP23CNC/blob/main/Documentation/featurelist.md)
-![V0.92 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/T2120387_DxO.jpg)
+![V0.96 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/RP23U5XBB%20V%200.96.png)
+
+## Mar 20
+### V0.96 send to the contract manufacturer
+I am fairly confident this is the last beta build. I'm going to be on vacation for a week and when I get back the boards should be there too.  I'll do another series of tests and, if good, will be sending off for a production run. Hopefully the RP23U5XBB will be available for purchase in mid April.
 
 ## Mar 19
 ### More UART thoughts
