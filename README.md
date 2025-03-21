@@ -6,7 +6,7 @@ RP235x based breakout board for grblHAL.
 
 ## Mar 20
 ### V0.96 send to the contract manufacturer
-I am fairly confident this is the last beta build. I'm going to be on vacation for a week and when I get back the boards should be there too.  I'll do another series of tests and, if good, will be sending off for a production run. Hopefully the RP23U5XBB will be available for purchase in mid April.
+I am fairly confident this is the last beta build. I'm going to be on vacation for a week and when I get back the boards should be there too.  I'll do another series of tests and, if good, will be sending off for a production run. Hopefully the RP23U5XBB will be available for purchase in mid April. I will be on-line this coming week, by the way.
 
 ## Mar 19
 ### More UART thoughts
