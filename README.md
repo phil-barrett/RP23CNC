@@ -2,7 +2,11 @@
 RP235x based breakout board for grblHAL.
 
 [Features](https://github.com/phil-barrett/RP23CNC/blob/main/Documentation/featurelist.md)
-![V0.96 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/RP23U5XBB%20V%200.96.png)
+![V0.96 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/V0.96-angle.jpg)
+
+## Mar 27
+### V0.96 boards received
+Initial tests look good.  All the modifications from V0.95 verified. Now on to a full battery of tests.  
 
 ## Mar 20
 ### V0.96 send to the contract manufacturer
