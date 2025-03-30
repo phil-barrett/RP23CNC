@@ -6,6 +6,13 @@ RP235x based breakout board for grblHAL.
 
 ![V0.96 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/V0.96-angle.jpg)
 
+## Mar 30
+### Big Update to User Manual
+Whew! That was a lot of work.  Lots of new information. Waiting for final 1.0 board to put a BOM in.  I went over it carefully but there are probably still some typos and errors.
+
+### V0.96 looks good
+I have made a few minor tweaks. Silk screen and connector positioning.  No errors found yet.  Still planning for a mid-April release. One last thing I am considering is to add solder jumpers to all the pin header jumpers.  This would allow (but not require) solder closure of all jumpers.
+
 ## Mar 27
 ### V0.96 boards received
 Initial tests look good.  All the modifications from V0.95 verified. Now on to a full battery of tests.  
