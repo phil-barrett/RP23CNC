@@ -3,8 +3,14 @@ RP235x based breakout board for grblHAL.
 
 [Features](https://github.com/phil-barrett/RP23CNC/blob/main/Documentation/featurelist.md)
 
+![V0.96 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/RP23U5XBB%20V0.96%20angle.jpg)
 
-![V0.96 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/V0.96-angle.jpg)
+## Mar 31
+### More work on the User Manual
+Continuing to add more information.  Some reorganization.
+
+### Minor Tweaks continue.
+I am concerned that there are too many pin header jumpers on the board at this point.  I may drop one or two and replace with solder jumpers. In particular, I believe the PWM/Aux2 pin header jumper is an infrequent option and can be relegated to a solder jumper, defaulting to Aux2. Maybe DI3/UART 1 is the same way - default to UART 1.
 
 ## Mar 30
 ### Big Update to User Manual
