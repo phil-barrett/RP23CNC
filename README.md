@@ -5,6 +5,12 @@ RP235x based breakout board for grblHAL.
 
 ![V0.96 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/RP23U5XBB%20V0.96%20angle.jpg)
 
+## April 9
+### Tariffs and the future of the RP23U5XBB
+The ongoing chaos in international tariffs has been, honestly, very unsettling.  The changing tariffs - 30%, 54%, 104%, 125% - make it impossible to plan for.
+
+So, after more than a couple of days being stuck by all this craziness, I decided to get moving forward and let the chips (er, tariffs) fall where they may.  I have sent V1.0 out for the first production run. When I get it back and factor in all my costs, I will announce pricing. Not the best way to run a business but I want to make this board available.
+
 ## Mar 31
 ### More work on the User Manual
 Continuing to add more information.  Some reorganization.
