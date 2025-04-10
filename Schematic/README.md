@@ -1,1 +1,1 @@
-Schematics of various versions.  V0.92 is current.
+Schematics of various versions.  V1.0 is current.
