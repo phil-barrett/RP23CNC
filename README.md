@@ -5,6 +5,10 @@ RP235x based breakout board for grblHAL.
 
 ![V1.0 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/RP23U5XBB-V1.0-angled.png)
 
+## April 10
+### Update to user manual
+All that is remaining is the assembly section (waiting for actual boards for photos and a bit more in the Servo section.
+
 ## April 9
 ### Tariffs and the future of the RP23U5XBB
 The ongoing chaos in international tariffs has been, honestly, very unsettling.  The changing tariffs - 30%, 54%, 104%, 125% - make it impossible to plan for.
