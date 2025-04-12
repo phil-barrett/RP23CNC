@@ -7,7 +7,7 @@ RP235x based breakout board for grblHAL.
 
 ## April 10
 ### Update to user manual
-All that is remaining is the assembly section (waiting for actual boards for photos and a bit more in the Servo section. And, more proof reading and polishing, of course.
+Added lots more info on configuration, networking, BOM. All that is remaining is the assembly section (waiting for actual boards for photos) and a bit more in the Servo section. And, more proof reading and polishing, of course.
 
 ## April 9
 ### Tariffs and the future of the RP23U5XBB
