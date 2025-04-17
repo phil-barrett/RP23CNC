@@ -3,7 +3,11 @@ RP235x based breakout board for grblHAL.
 
 [Features](https://github.com/phil-barrett/RP23CNC/blob/main/Documentation/featurelist.md)
 
-![V1.0 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/RP23U5XBB-V1.0-angled.png)
+![V1.0 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/RP23U5XBB%20with%20assembly%20and%20ethernet%20kits.jpg)
+
+## April 16
+### V1.0 boards are back.
+First batch of V1.0 boards arrived today. Looks good. Been doing an assembly/photo shoot for the User Manual. Will work on getting the Tindie pages set up.  Finalized pricing - $49.99 for the board, $14.00 for the basic assembly kit, $14.00 for the Ethernet kit. Hopefully the tariff situation will stabilize and maybe retreat to sane levels.
 
 ## April 10
 ### Update to user manual
