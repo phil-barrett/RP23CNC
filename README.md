@@ -1,6 +1,8 @@
 # RP23CNC
 RP235x based breakout board for grblHAL.
 
+V1.0 has been released.  It ia available for [purchase on Tindie](https://www.tindie.com/products/philba/rp23cnc-5-axis-grblhal-controller/).
+
 [Features](https://github.com/phil-barrett/RP23CNC/blob/main/Documentation/featurelist.md)
 
 ![V1.0 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/RP23U5XBB%20with%20assembly%20and%20ethernet%20kits.jpg)
