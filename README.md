@@ -23,7 +23,7 @@ So, after more than a couple of days being stuck by all this craziness, I decide
 
 The changes to V1.0 are, as suggested earlier, to UART1 and Aux2/PWM configuration via solder jumpers.
 
-V1.0 rendering is shown above. Photos will be shown when we receive the boards from the production run.
+~V1.0 rendering is shown above.~ Photos will be shown when we receive the boards from the production run.
 
 ## Mar 31
 ### More work on the User Manual
