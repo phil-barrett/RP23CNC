@@ -6,6 +6,8 @@ Version 2 is coming.  It now supports up to 24V input. We also moved to the RP23
 
 Unfortunately, transportation, component and assembly cost increases force us to have a price increase. We are still deciding how much but hope to keep it small.
 
+![V2.02 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/v2.02%20PCB%2BAssembly%20Kit.png)
+
 ## Version 1.x
 
 V1.0 has been released.  It is available for [purchase at my store](https://brookwood-design-77.myshopify.com/).
