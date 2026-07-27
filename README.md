@@ -4,7 +4,7 @@ RP235x based breakout board for grblHAL.
 ## Version 2
 Version 2 is coming.  It now supports up to 24V input. We also moved to the RP2354B microcontroller which has integrated flash memory. This allows up to avoid a dramatic price increase due to the increased cost of external flash memory. You will see an empty footprint for the memory. The RP2354B works the same as the RP2350B.  No software or PCB changes are needed.
 
-Unfortunately, transportation, component and assembly cost increases force us to have a small price increase. We are still deciding how much but hope to keep it small.
+Unfortunately, transportation, component and assembly cost increases force us to have a price increase. We are still deciding how much but hope to keep it small.
 
 ## Version 1.x
 
