@@ -8,6 +8,8 @@ Unfortunately, transportation, component and assembly cost increases force us to
 
 ![V2.02 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/v2.02%20PCB%2BAssembly%20Kit.png)
 
+![V2.02](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/RP23CNC%20V2%20board%2Basm%20kit.jpg)
+
 ## Version 1.x
 
 V1.0 has been released.  It is available for [purchase at my store](https://brookwood-design-77.myshopify.com/).
