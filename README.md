@@ -2,9 +2,9 @@
 RP235x based breakout board for grblHAL.
 
 ## Version 2
-Version 2 is coming.  It now supports up to 24V input. We also moved to the RP2354B microcontroller which has integrated flash memory. This allows up to avoid a dramatic price increase due to the increased cost of external flash memory. You will see an empty footprint for the memory. The RP2354B works the same as the RP2350B.  No software or PCB changes are needed.
+The RP23CNC now supports up to 24V input. We also moved to the RP2354B microcontroller which has integrated flash memory. This allows us to avoid a dramatic price hike due to the increased cost of external flash memory. You will see an empty footprint for the memory. The RP2354B works the same as the RP2350B. V2 is available for [purchase here](https://brookwood-design-77.myshopify.com/).
 
-Unfortunately, transportation, component and assembly cost increases force us to have a price increase. We are still deciding how much but hope to keep it small.
+Unfortunately, transportation, component and assembly cost increases force us to have a small price increase. The RP23CNC is still a good value for what you get.
 
 ![V2.02 build](https://github.com/phil-barrett/RP23CNC/blob/main/Photos/v2.02%20PCB%2BAssembly%20Kit.png)
 
