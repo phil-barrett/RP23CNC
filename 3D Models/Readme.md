@@ -2,8 +2,8 @@
 
 ## 3D Models of RP23CNC. 
 
-Both WRL and STEP 3D Models are available here. V2.02.zip is the current version.
+[WRL and STEP 3D Models for V2.x](https://github.com/phil-barrett/RP23CNC/blob/main/3D%20Models/v2.02.zip)
 
 ## DIN Rail Brackets
 
-RP23CNC DIN.zip has .3MF files for V2.xx.
+[DIN Rail bracket .3MF for V2.x](https://github.com/phil-barrett/RP23CNC/blob/main/3D%20Models/v2.02.zip)
